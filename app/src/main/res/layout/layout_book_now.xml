@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FBF3B2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:padding="6dp"
+        android:background="@drawable/rounded_cornered_edittext">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Astrological Predictions"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:fontFamily="@font/amaranth"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="6dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/swami_prediction"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swamiji is well versed in Horoscope analysis; prediction &amp; proposal of remedial (Pooja / Homam / Yajna) "
+            android:gravity="center"
+            android:textSize="10sp"
+            android:fontFamily="@font/amaranth"
+            android:textColor="@color/black"
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Book Now"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:id="@+id/text_astrological_prediction_booking"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:padding="6dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:padding="6dp"
+        android:background="@drawable/rounded_cornered_edittext"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amavasya Yaagam"
+            android:gravity="center"
+            android:fontFamily="@font/amaranth"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:padding="6dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/amavasya_yagam"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sree Bagalamukhi Sarvadosha Shanthi Yaagam starts at 6PM every month on AMAVASYA"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:fontFamily="@font/amaranth"
+            android:textColor="@color/black"
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Book Now"
+android:fontFamily="@font/amaranth"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:id="@+id/text_amavasya_yagam_booking"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:padding="6dp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:padding="6dp"
+        android:background="@drawable/rounded_cornered_edittext"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pournami Yaagam"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:fontFamily="@font/amaranth"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="6dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/pournami_yagam"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sree Bagalamukhi Sarvakaarya Sidhdhi Yaagam starts at 6PM every month on POURNAMI"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:fontFamily="@font/amaranth"
+            android:textColor="@color/black"
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Book Now"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:fontFamily="@font/amaranth"
+            android:layout_gravity="center"
+            android:id="@+id/text_pournami_yaagam_booking"
+            android:textColor="@color/white"
+            android:padding="6dp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:padding="6dp"
+        android:background="@drawable/rounded_cornered_edittext"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thila Homam"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/amaranth"
+            android:textColor="@color/black"
+            android:padding="6dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/thila_homam"
+            android:layout_marginTop="6dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pithru Shanthi Homam starts at 8AM every month on AMAVASYA (NEW MOON) DAY "
+            android:gravity="center"
+            android:textSize="10sp"
+            android:fontFamily="@font/amaranth"
+            android:textColor="@color/black"
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Book Now"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:fontFamily="@font/amaranth"
+            android:layout_gravity="center"
+            android:id="@+id/text_thila_homam_booking"
+            android:textColor="@color/white"
+            android:padding="6dp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:padding="6dp"
+        android:background="@drawable/rounded_cornered_edittext"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ganapathi Homam"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:fontFamily="@font/amaranth"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="6dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/ganapathi_homam"
+            android:layout_marginTop="6dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ganapathi Homam is a ritual dedicated to Lord Ganesha, performed to seek his blessings and achieve success before imparting on any venture."
+            android:gravity="center"
+            android:textSize="10sp"
+            android:fontFamily="@font/amaranth"
+            android:textColor="@color/black"
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Book Now"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:id="@+id/text_ganapathi_homam_booking"
+            android:textColor="@color/white"
+            android:padding="6dp"
+            android:fontFamily="@font/amaranth"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

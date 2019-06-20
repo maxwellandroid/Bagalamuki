@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lang_bg">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="22sp"
+            android:textColor="#FF9701"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Contact Us"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="12dp"/>
+
+        <View android:background="#CA9D3C"
+            android:layout_height="1dp"
+            android:layout_width="wrap_content"
+            android:layout_margin="12dp"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#8C2020"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/amaranth"
+            android:text="Sree Bagalamukhi Devi Temple"
+            android:padding="3dp"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/amaranth"
+            android:text="Sre Suryamangalam Bagalamukhi Devi Temple"
+            android:padding="6dp"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:fontFamily="@font/amaranth"
+            android:text="Therku Papankulam, Manimuthar Road,"
+            android:padding="6dp"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="Kallidaikurichi, Tirunelveli - 627416."
+            android:padding="6dp"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginLeft="12dp"/>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:layout_marginLeft="12dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="@font/amaranth"
+            android:text="Mobile No : "
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:text="+91 98416 27471"
+            android:padding="3dp"
+            android:autoLink="phone"/>
+
+    </LinearLayout>
+
+
+      <LinearLayout
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent"
+          android:orientation="horizontal"
+          android:layout_marginTop="6dp"
+          android:layout_marginLeft="12dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Mobile / Whatsapp : "
+            android:fontFamily="@font/amaranth"
+            android:padding="3dp"/>
+
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="+91 9710 234 343"
+            android:padding="3dp"
+            android:autoLink="phone"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Mail : "
+                android:fontFamily="@font/amaranth"
+                android:padding="3dp"/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="sreebagalamukhi@gmail.com"
+                android:padding="3dp"
+                android:autoLink="email"
+                android:fontFamily="@font/amaranth"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Chennai -Sree Suryamangalam Advaitha Veda Vidhyaa Peetam"
+            android:padding="3dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:fontFamily="@font/amaranth"
+            android:text="Plot No.162, 3rd Main Road, Natesan Nagar"
+            android:padding="3dp"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="Virugambakkam, Chennai - 600 092."
+            android:padding="3dp"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginLeft="12dp"/>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:fontFamily="@font/amaranth"
+                android:text="Mobile No : "
+                android:padding="3dp"/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:text="+91 98416 27471"
+                android:padding="3dp"
+                android:autoLink="phone"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Mobile / Whatsapp : "
+                android:fontFamily="@font/amaranth"
+                android:padding="3dp"/>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="+91 9710 234 343"
+                android:padding="3dp"
+                android:fontFamily="@font/amaranth"
+                android:autoLink="phone"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="12dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Mail : "
+            android:fontFamily="@font/amaranth"
+            android:padding="3dp"/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="sreebagalamukhi@gmail.com"
+                android:padding="3dp"
+                android:autoLink="email"
+                android:fontFamily="@font/amaranth"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginTop="10dp"
+            android:text="Bengaluru - Sree Suryamangalam Advaitha Veda Vidhya Peetam"
+            android:padding="3dp"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:fontFamily="@font/amaranth"
+            android:text="#328 4th Main 11th Cross, Vijaya Bank Layout, BDA, Bilekahalli,Behind IIM,"
+            android:padding="3dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:fontFamily="@font/amaranth"
+            android:text="Grandhim Hospital behind.Near Ayyappa Temple- 560076."
+            android:padding="3dp"
+            android:layout_marginLeft="12dp"/>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:fontFamily="@font/amaranth"
+                android:text="Mobile No : "
+                android:padding="3dp"/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:text="+91 98416 27471"
+                android:padding="3dp"
+                android:autoLink="phone"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Mobile / Whatsapp : "
+                android:fontFamily="@font/amaranth"
+                android:padding="3dp"/>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="+91 9710 234 343"
+                android:padding="3dp"
+                android:fontFamily="@font/amaranth"
+                android:autoLink="phone"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Mail : "
+                android:fontFamily="@font/amaranth"
+                android:padding="3dp"/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="sreebagalamukhi@gmail.com"
+                android:padding="3dp"
+                android:autoLink="email"
+                android:fontFamily="@font/amaranth"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/amaranth"
+            android:text="Coimbatore - Sree Suryamangalam Advaitha Veda Vidhya Peetam"
+            android:padding="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="Sre Suryamangalam, No.9, Ganapathi Nivas,"
+            android:padding="3dp"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginLeft="12dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="#000"
+            android:text="Ramasami Nagar, Vadavalli, Coimbatore."
+            android:padding="3dp"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginLeft="12dp"/>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:fontFamily="@font/amaranth"
+                android:text="Mobile No : "
+                android:padding="3dp"/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:text="+91 98416 27471"
+                android:padding="3dp"
+                android:autoLink="phone"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Mobile / Whatsapp : "
+                android:fontFamily="@font/amaranth"
+                android:padding="3dp"/>
+
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="+91 9710 234 343"
+                android:padding="3dp"
+                android:fontFamily="@font/amaranth"
+                android:autoLink="phone"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="12dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Mail : "
+                android:fontFamily="@font/amaranth"
+                android:padding="3dp"/>
+
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="sreebagalamukhi@gmail.com"
+                android:padding="3dp"
+                android:autoLink="email"
+                android:fontFamily="@font/amaranth"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#8C2020"
+            android:text="Hyderabad - Sree Suryamangalam Advaitha Veda Vidhya Peetam"
+            android:padding="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/amaranth"/>
+
+
+       <LinearLayout
+           android:layout_height="wrap_content"
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:padding="3dp"
+           android:layout_marginLeft="12dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="@font/amaranth"
+            android:text="Mobile No : "
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:text="+91 9841499471"
+            android:padding="3dp"
+            android:fontFamily="@font/amaranth"
+            android:autoLink="phone"/>
+
+    </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_height="wrap_content"
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="3dp"
+           android:layout_marginLeft="12dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Mail : "
+            android:fontFamily="@font/amaranth"
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="sreebagalamukhi@gmail.com"
+            android:padding="3dp"
+            android:fontFamily="@font/amaranth"
+            android:autoLink="email"/>
+    </LinearLayout>
+   <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="16sp"
+            android:textColor="#8C2020"
+       android:layout_marginTop="10dp"
+            android:text="Vijayawada - Sree Suryamangalam Advaitha Veda Vidhya Peetam"
+            android:padding="3dp"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/amaranth"/>
+
+
+       <LinearLayout
+           android:layout_height="wrap_content"
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:padding="3dp"
+           android:layout_marginLeft="12dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="@font/amaranth"
+            android:text="Mobile No : "
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:text="+91 9841499471"
+            android:padding="3dp"
+            android:fontFamily="@font/amaranth"
+            android:autoLink="phone"/>
+
+    </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_height="wrap_content"
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:layout_marginTop="6dp"
+           android:layout_marginLeft="12dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Mail : "
+            android:fontFamily="@font/amaranth"
+            android:padding="3dp"/>
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="sreebagalamukhi@gmail.com"
+            android:padding="3dp"
+            android:fontFamily="@font/amaranth"
+            android:autoLink="email"/>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "66258257836",
+    "firebase_url": "https://sree-bagalamukhi-tv.firebaseio.com",
+    "project_id": "sree-bagalamukhi-tv",
+    "storage_bucket": "sree-bagalamukhi-tv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66258257836:android:d689b2ab88ab1936",
+        "android_client_info": {
+          "package_name": "com.maxwell.sreebagalamukhitv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66258257836-or0qa6qgk3gvjs8nud2m0v657eaooakd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.maxwell.sreebagalamukhitv",
+            "certificate_hash": "f0769205038d897b144a2933fb3e0e5ed5b79d4a"
+          }
+        },
+        {
+          "client_id": "66258257836-5tugvkjcdk08489tnsonb5gkfis305pg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCsEw8lICevs_mqexcXCnZzL3xZkuiPa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66258257836-5tugvkjcdk08489tnsonb5gkfis305pg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

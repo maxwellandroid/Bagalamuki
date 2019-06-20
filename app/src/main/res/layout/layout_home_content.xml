@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            app:centered="true"
+            app:fillColor="@color/colorPrimary"
+            android:paddingBottom="6dp"
+            app:pageColor="#fff"
+            app:snap="false" />
+
+    </RelativeLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Welcome to Sree Bagalamukhi Devi Temple !"
+    android:textColor="#FF9701"
+    android:padding="12dp"
+    android:typeface="serif"
+    android:layout_gravity="center"
+    android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amaranth"
+        android:padding="12dp"
+        android:text="Sree Bagalamukhi Devi temple is rarely found in India. Sree Suryamangalam Advaitha Veda Vidhya Peetam took a decision to build a temple for Sree Bagalamukhi Devi for the first time in South India at Kallidaikurichi, Therkku Pappankulam village in Thirunelveli District of Tamilnadu. His Holiness Sri Kanchi Kamakoti Peetathipathi Jagadguru Poojyasri Sri Sri Jayendra Saraswathi Sankaracharya Swamiji blessed and laid the foundation stone for the construction work of the temple. Located at Virugambakkam in Chennai, Sree Suryamangalam Advaitha Veda Vidhya Peetam is doing dedicated service for the past twenty-five years to the devotees by means of Astrological predictions, Remedial measures (Parihara Pooja), Thaanthric Pooja and Homam, Veda Mantra Yaaga for the purpose of getting rid of hardships and achieving goals. "
+android:lineSpacingExtra="10dp"
+        android:textColor="@color/black"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amaranth"
+        android:padding="12dp"
+        android:text="Bagalamukhi Yaagaagni taken from Arani is kept intact here for the past nineteen (19) years and the chanting of Sri Bagalamukhi Mantra Aahuthi has crossed over one crore. Taking into account the in-depth knowledge of Hindu Veda Sastra, Astrology, Thantra Sastra acquired by Sree Suryamangalam Advaitha Veda Vidhya Peetam's Peetathipathi Sri Sri Guruvayur Suryan Namboothiry Swamiji, he had been conferred the title 'Rajaguru' and 'Aasthaana Vidwan' by Sri Sri Kanchi Kamakoti Peetam in 2006."
+        android:textColor="#000"
+        android:lineSpacingExtra="10dp"
+        android:typeface="serif" />
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

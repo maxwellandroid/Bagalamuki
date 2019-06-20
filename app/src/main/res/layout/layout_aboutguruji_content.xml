@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@drawable/swami"
+    android:layout_margin="6dp"
+    android:padding="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amaranth"
+        android:padding="12dp"
+        android:text="Swamiji, from his childhood days, was very much interested / inclined towards Astrology and Thaanthric Sastras. Basically, he is a person having immense knowledge in 'Atharvana Veda' which tells us how to perform Yaagas / Homams as per.... Hindu Religion and also a renowned personality in the field of Astrology and Prasana Sastra."
+        android:textColor="#000"
+        android:lineSpacingExtra="10dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amaranth"
+        android:padding="12dp"
+        android:text="He is in the field of Astrology and Thaanthric Sastras for the past 4 decades. So far Swamiji had seen horoscopes of innumerable people including Politicians, VIPs, Bureaucrats, Common people and all the respective proposed remedial measures advised by Swamiji have given them fruitful results per their enquiry / expectation."
+        android:textColor="#000"
+        android:lineSpacingExtra="10dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amaranth"
+        android:padding="12dp"
+        android:text="Swamiji, from his childhood days, was very much interested / inclined towards Astrology and Thaanthric Sastras. Basically, he is a person having immense knowledge in 'Atharvana Veda' which tells us how to perform Yaagas / Homams as per.... Hindu Religion and also a renowned personality in the field of Astrology and Prasana Sastra."
+        android:textColor="#000"
+        android:lineSpacingExtra="10dp"
+        android:typeface="serif" />
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AmavaasaiYaagamBookingActivity"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25sp"
+                android:layout_height="25dp"
+                android:src="@drawable/left_arrow"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:tint="@color/white"
+                android:onClick="backPressed"
+                android:padding="3dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Amavasya Yaagam"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lang_bg">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Sree Bagalamukhi sarvadosha shanthi yaagam"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/amaranth"
+                android:lineSpacingExtra="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="This Yaagam on the night of Amavasai (New Moon day) is fully beneficial and will destroy problems due to Debt; drive away Doshas due to enemies including Sathru Samharam, Black Magic; ensure Victory in Legal matters; put an end to Previous Birth Sins (Poorva Janma Paapa Nivarththi), Curse of the ancestors (Pithru Dosha), put an end to Diseases; Raghu Dosha Shanthi and provide you with lot of Happiness, Peace, Comfort and Prosperity in life."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:fontFamily="@font/amaranth"
+                android:lineSpacingExtra="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Sre Suryamangalam Bagalamukhi Devi Temple is the only temple where the Chathurbahu Vigraham (Four handed idol), in accordance with the Dhyana Sasthra Vidhi, is consecrated and worshipped in the world. Here, on the auspicious days of Amavasai (New Moon Day) and Pournami (Full Moon Day) Sree Bagalamukhi Devi Yaaga is conducted in the august presence of Sree Bagalamukhi Devi, the omnipotent, Mother Goddess of the Universe who is worshiped by all the deities."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:fontFamily="@font/amaranth"
+                android:lineSpacingExtra="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="The Yaagas are performed in the Sre Suryamangalam Advaitha Veda Vidhyaa Peetam, as per the Thaantric Vidhi and the Mantras prescribed for each Yaaga. They are chanted 10,000 (Ten Thousand) times each along with Homam. All devotees taking part in the Yaagas, with a view to fulfilling their wants are provided a chance for dedicating their prayer (Sankalpam) to the Yaagaagni to propriate the Gods. This custom which is seen very rarely in performing Yaagas is being conducted according to the Thaantric Vidhi - unique in this temple."
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:fontFamily="@font/amaranth"
+                android:lineSpacingExtra="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Next Amavasya Yagam On Jun 02 2019 at 6pm.
+Cost - Rs. 1100 /- (per head)"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_cornered_edittext"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:inputType="text"
+                android:id="@+id/edittext_name"
+                android:textColor="@color/black"
+                android:hint="name"
+                android:padding="6dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_cornered_edittext"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:id="@+id/edittext_email"
+                android:textColor="@color/black"
+                android:hint="Email ID"
+                android:inputType="textEmailAddress"
+                android:padding="6dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Mobile Number"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_cornered_edittext"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:id="@+id/edittext_mobile_number"
+                android:textColor="@color/black"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:padding="6dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Number(s)"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:padding="6dp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_cornered_edittext"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:hint="- Select -"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:id="@+id/edittext_no_of_persons"
+                        android:drawableTint="@color/black"
+                        android:drawableRight="@android:drawable/arrow_down_float"
+                        android:padding="6dp"
+                        />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Amount"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:padding="6dp"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="@drawable/rounded_cornered_edittext"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14sp"
+                        android:id="@+id/edittext_amount"
+                        android:textColor="@color/black"
+                        android:hint=""
+                        android:editable="false"
+                        android:focusable="false"
+                        android:padding="6dp"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Total Amount"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                android:fontFamily="@font/amaranth"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_cornered_edittext"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:editable="false"
+                android:focusable="false"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                android:hint="Amount"
+                android:id="@+id/edittext_total_amount"
+                android:padding="6dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Please Choose"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10dp"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Star/Rasi"
+                    android:id="@+id/radioButton_star_rasi"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:textSize="14sp"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Don't know Star/Rasi"
+                    android:id="@+id/radioButton_dont_know_rasi"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_rai"
+                android:visibility="gone"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Nakshatram (Birth Star)"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/amaranth"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="10dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded_cornered_edittext"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14sp"
+                    android:id="@+id/edittext_nakshtram"
+                    android:textColor="@color/black"
+                    android:hint="- Select -"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:drawableTint="@color/black"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:padding="6dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Rasi"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/amaranth"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="10dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded_cornered_edittext"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:hint="- Select -"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:id="@+id/edittext_rasi"
+                    android:drawableTint="@color/black"
+                    android:drawableRight="@android:drawable/arrow_down_float"
+                    android:padding="6dp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/layout_dont_know_rasi"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Date of Birth*"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/amaranth"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="10dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded_cornered_edittext"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14sp"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:textColor="@color/black"
+                    android:hint=""
+                    android:id="@+id/edittext_dob"
+                    android:padding="6dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Exact Time of Birth*"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/amaranth"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="10dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded_cornered_edittext"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14sp"
+                    android:id="@+id/edittext_tob"
+                    android:textColor="@color/black"
+                    android:hint=""
+                    android:inputType="text"
+                    android:padding="6dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Place of Birth*"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/amaranth"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:lineSpacingExtra="10dp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded_cornered_edittext"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="14sp"
+                    android:inputType="text"
+                    android:id="@+id/edittext_pob"
+                    android:textColor="@color/black"
+                    android:hint=""
+                    android:padding="6dp"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="start"
+                android:background="@drawable/rounded_cornered_edittext"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:id="@+id/edittext_address"
+                android:textColor="@color/black"
+                android:hint="Address"
+                android:inputType="text"
+                android:padding="6dp"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Purpose of Yaaga*"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="start"
+                android:background="@drawable/rounded_cornered_edittext"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:id="@+id/edittext_purpose_of_yaagam"
+                android:textColor="@color/black"
+                android:hint="-Select-"
+                android:editable="false"
+                android:focusable="false"
+                android:drawableTint="@color/black"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:padding="6dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Message"
+                android:textColor="@color/black"
+                android:fontFamily="@font/amaranth"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="10dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:gravity="start"
+                android:id="@+id/edittext_message"
+                android:background="@drawable/rounded_cornered_edittext"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:hint=""
+                android:inputType="text"
+                android:padding="6dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Book Now"
+                android:id="@+id/button_book_now"
+                android:textAllCaps="false"
+                android:layout_marginTop="5dp"
+                android:background="@color/background"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

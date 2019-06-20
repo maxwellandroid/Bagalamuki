@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_teaser"
+            android:icon="@drawable/teaser"
+            android:title="Teaser" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About Guruji" />
+        <item
+            android:id="@+id/nav_livetv"
+            android:icon="@drawable/live_streaming"
+            android:title="Live TV" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/youtube"
+            android:title="Videos" />
+        <item
+            android:id="@+id/nav_book_now"
+            android:icon="@drawable/book_now"
+            android:title="Book Now" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/contactus"
+            android:title="Contact Us" />
+    </group>
+
+
+</menu>
